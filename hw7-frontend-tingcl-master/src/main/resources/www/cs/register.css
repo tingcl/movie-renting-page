@@ -1,0 +1,36 @@
+.register-header {
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.register-body {
+    float: left;
+}
+h3{
+    font-family: Lato, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+#register-form{
+    display: inline-block;
+    font-size: 15px;
+}
+.register-email {
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.register-password {
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+.register-btn {
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 90%;
+}
+.registerBody{
+    display: inline-block;
+}

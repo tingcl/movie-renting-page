@@ -1,0 +1,16 @@
+.accountPage h1{
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+}
+.accountPage #orderHistory{
+    margin-right: 10px;
+}
+.accountPage button:hover{
+    background-color: lightgrey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.accountPage button{
+    border: 1px dimgray;
+    border-radius: 4px;
+}

@@ -1,0 +1,46 @@
+.login-header{
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.login-body {
+    float: left;
+}
+h3{
+    font-family: Lato, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.avatar {
+    width: 15%;
+    height: 15%;
+    margin-top: 13px;
+}
+#login-form {
+    display: inline-block;
+}
+
+.login-email {
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.login-password {
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+.login-btn {
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 90%;
+}
+.goRegister{
+    color: blue;
+}
+.goRegister:hover{
+    cursor: pointer;
+}
+
+

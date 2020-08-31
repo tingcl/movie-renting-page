@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FabFlix - Browse and Purchase Movies Online</title>
+
+    <!--Global session information variables-->
+    <script type='text/javascript' >
+        var sId = null;
+        var eId = null;
+        var responseforsession = null;
+    </script>
+    <!--Style sheets files-->
+    <link rel="stylesheet" href="cs/index.css">
+    <link rel="stylesheet" href="cs/login.css">
+    <link rel="stylesheet" href="cs/register.css">
+    <link rel="stylesheet" href="cs/movies.css">
+    <link rel="stylesheet" href="cs/movieDetails.css">
+    <link rel="stylesheet" href="cs/accountPage.css">
+    <link rel="stylesheet" href="cs/cart.css">
+    <!--Javascript files -->
+    <script src="js/homePage.js" type="text/javascript" defer="defer"></script>
+    <script src="js/loginPage.js" type="text/javascript" defer="defer"></script>
+    <script src="js/registerPage.js" type="text/javascript" defer="defer"></script>
+    <script src="js/searchPage.js" type="text/javascript" defer="defer"></script>
+    <script src="js/index.js" type="text/javascript" defer="defer"></script>
+    <script src="js/detailsPage.js" type="text/javascript" defer="defer"></script>
+    <script src="js/myAccount.js" type="text/javascript" defer="defer"></script>
+    <script src="js/handleSessions.js" type="text/javascript" defer="defer"></script>
+    <!--Ajax script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+    <h1 class="index-logo">FabFlix</h1>
+    <div class="index-home">
+        <a class="index-main">Home</a>
+        <a class="index-login">Login</a>
+        <a class="index-register">Register</a>
+        <a class="BLANK"></a>
+        <a class="index-account">my Account</a>
+        <div class="index-bar">
+            <form id="basic" name="myForm">
+                <input type="radio" id="1" name="searchFor" value="title" checked="checked"> Title
+                <input type="radio" id="2" name="searchFor" value="genre"> Genre
+                <input type="text" class="index-bar-query" placeholder="Browse by title ..."/>
+                <button type="submit"><img src="images/magnify.png" width="20" height="18"></button>
+            </form>
+            <a class="index-bar-advanced">Advanced search</a>
+        </div>
+    </div>
+    <!--Dynamically manipulated pages-->
+    <div class="loginPage"></div>
+    <div class="registerPage"></div>
+    <div class="filters"></div>
+    <div class="advancedSearch"></div>
+    <div class="moviesPage"></div>
+    <div class="detailPage"></div>
+    <div class="accountPage"></div>
+    <div class="cartPage"></div>
+    <div class="orderPage"></div>
+    <!--Dynamically manipulated pages-->
+</body>
+</html>
+
+
+

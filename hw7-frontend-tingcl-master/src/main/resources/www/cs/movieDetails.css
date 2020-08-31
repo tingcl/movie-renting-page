@@ -1,0 +1,29 @@
+#movieIdButton{
+    color: blue;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+}
+#movieIdButton:hover{
+    cursor: pointer;
+}
+.detailPage table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.detailPage table, tr, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.detailPage #pleaseFormat{
+    float: left;
+    margin-bottom: 20px;
+}
+.detailPage h2{
+    margin-bottom: 0.5px;
+}
+
+.detailPage button:hover{
+    cursor: pointer;
+}
